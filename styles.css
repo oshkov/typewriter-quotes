@@ -1,0 +1,19 @@
+body {
+  font-family: 'Courier New', monospace;
+}  
+
+h1 {
+  margin: 20% 20% 0 20%;
+  user-select: none;
+}
+
+span {
+  user-select: none;
+  animation: blink 0.7s linear infinite;
+}
+
+@keyframes blink {
+  50% { color: rgb(34, 34, 34); }
+  51% { color: rgba(34, 34, 34, 0); }
+  100% { color: rgba(34, 34, 34, 0); }
+}
